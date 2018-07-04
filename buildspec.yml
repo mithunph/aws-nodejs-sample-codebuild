@@ -12,6 +12,7 @@ phases:
       - echo Installing source NPM dependencies...
       - npm install
       - npm install unit.js
+      - serverless config credentials --provider aws --key AIAIHQLYRITUYLQ47DQ --secret LeVndeoE0gA73S5naEqCvmm2qOvy/OHw+xZjsxUr
   build:
     commands:
       - echo Build started on `date`
